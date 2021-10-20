@@ -1,0 +1,10 @@
+DEBUG = False
+
+SERVER_NAME = 'asdfasdf.com'
+SECRET_KEY = 'asdfasdf'
+
+MAIL_USERNAME = 'you@realemailaccount.com'
+MAIL_PASSWORD = 'asdfasdf'
+
+CELERY_BROKER_URL = 'redis://:amuchmoresecurepassword@redis:6379/0'
+CELERY_RESULT_BACKEND = 'redis://:amuchmoresecurepassword@redis:6379/0'
