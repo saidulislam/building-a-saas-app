@@ -1,0 +1,44 @@
+Flask==2.0.1
+
+
+# an addition had to be made below to fix an issue related to a recent version of
+# werkzeug. This library was not version locked in this file.
+werkzeug==2.0.1
+
+
+# Application server for both development and production.
+gunicorn==20.1.0
+
+
+# Testing and static analysis.
+pytest==6.2.5
+pytest-cov==3.0.0
+flake8==4.0.1
+
+
+# CLI.
+Click
+
+
+# Data and workers.
+redis==3.5.3
+celery==5.1.2
+
+
+# Forms.
+# Keep WTForms-Components==0.9.7. Updating this will lose 
+# the Unique validator we need
+Flask-WTF==0.15.1
+WTForms-Components==0.9.7
+
+
+# Data and workers.
+psycopg2==2.9.1
+SQLAlchemy==1.4.25
+Flask-SQLAlchemy==2.5.1
+
+
+# Extensions.
+flask-debugtoolbar==0.11.0
+Flask-Mail==0.9.1
+Flask-Login==0.3.2
